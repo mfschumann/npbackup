@@ -13,7 +13,7 @@ if [ "$(printf %.3s $machine)" = "arm" ] || [ "$machine" = "aarch64" ]; then
         opts=" --no-gui"
         echo "BUILDING WITHOUT GUI because arm detected"
 else
-        otps=""
+        opts=""
         echo "BUILDING WITH GUI"
 fi
 
